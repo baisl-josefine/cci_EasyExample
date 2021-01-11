@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<JetViewSoft-DefaultObjects Version="3.0" ProductVersion="5.4.0.4246" RelatedObjectPool=".\MyProject1.jop">
+<JetViewSoft-DefaultObjects Version="3.0" ProductVersion="5.5.0.4333" RelatedObjectPool=".\MyProject1.jop">
 	<Objects>
+		<Object Class="CButton">
+			<Objects>
+				<Object Class="CFontStyle" JVS-ID="23004" ObjectName="FontAttributes_23004"/>
+			</Objects>
+		</Object>
 		<Object Class="CMeter">
 			<Objects>
 				<Object Class="CNumberVariable" JVS-ID="21001" ObjectName="NumberVariable_Gesamtzaehler"/>
