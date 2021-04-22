@@ -23,6 +23,7 @@
 #include "App_VTClientLev2.h"   // -> Object defines
 
 #include "MyProject1.iop.h"
+#include "MyProject1.c.h"
 #include "Settings/settings.h"
 
 #include "esp_log.h"
@@ -115,8 +116,10 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 
 	case Button_minus:
 	case SoftKey_Minus:
-		Tageszaehler--;
-		Gesamtzaehler--;
+		if (Tageszaehler > 0)
+			Tageszaehler--;
+		if (Gesamtzaehler > 0)
+			Gesamtzaehler--;
 		break;
 
 	case SoftKey_Reset_Gesamtzaehler:
@@ -132,6 +135,17 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 	default:
 		break;
 	}
+
+	if(Tageszaehler>=Tagesziel)
+		IsoVtcCmd_ObjHideShow(pButtonData->u8Instance, Container_tagesz_err, true);
+	else
+		IsoVtcCmd_ObjHideShow(pButtonData->u8Instance, Container_tagesz_err, false);
+
+	if(Gesamtzaehler>=Gesamtziel)
+		IsoVtcCmd_NumericValue(pButtonData->u8Instance, ObjectPointer_G_Ziel, OutputString_G_erreicht);
+	else
+		IsoVtcCmd_NumericValue(pButtonData->u8Instance, ObjectPointer_G_Ziel, ID_NULL);
+
 	// Senden des Wertes der lokalen Variable Tageszaehler an die NumberVariable_Tageszaehler
 	IsoVtcCmd_NumericValue(pButtonData->u8Instance, NumberVariable_Tageszaehler, Tageszaehler);
 	// Senden des Wertes der lokalen Variable Gesamtzaehler an die NumberVariable_Gesamtzaehler
@@ -195,6 +209,11 @@ void VTC_setPoolReady(iso_u8 u8Instance)
 	Gesamtzaehler = getU32("CF-A", "Gesamtzaehler", 0);
 	Tagesziel = getU32("CF-A", "Tagesziel", 0);
 	Gesamtziel = getU32("CF-A", "Gesamtziel", 0);
+
+
+
+
+
 
 	// Senden des Wertes der lokalen Variable Tageszaehler an die NumberVariable_Tageszaehler
 	IsoVtcCmd_NumericValue(u8Instance, NumberVariable_Tageszaehler, Tageszaehler);

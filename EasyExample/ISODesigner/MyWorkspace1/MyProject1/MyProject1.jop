@@ -103,7 +103,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="Proportional">
-					<Value>0</Value>
+					<Value>1</Value>
 				</Property>
 				<Property Name="ISOFontType">
 					<Value>0</Value>
@@ -124,10 +124,10 @@
 					<Value>Lucida Console</Value>
 				</Property>
 				<Property Name="Size">
-					<Value>14</Value>
+					<Value>9</Value>
 				</Property>
 				<Property Name="Height">
-					<Value>24</Value>
+					<Value>16</Value>
 				</Property>
 				<Property Name="Color">
 					<Value>0</Value>
@@ -232,6 +232,63 @@
 				</Property>
 			</PropertySheet>
 		</Object>
+		<Object Class="CFontStyle" JVS-ID="23003" ObjectName="FontAttributes_lila" Pinned="FALSE">
+			<PropertySheet Name="Font" ID="68816">
+				<Property Name="Name">
+					<Value>MS Shell Dlg</Value>
+				</Property>
+				<Property Name="Size">
+					<Value>7</Value>
+				</Property>
+				<Property Name="Height">
+					<Value>12</Value>
+				</Property>
+				<Property Name="Color">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Weight">
+					<Value>400</Value>
+				</Property>
+				<Property Name="Italic">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Underline">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Strikeout">
+					<Value>0</Value>
+				</Property>
+				<Property Name="PointWidth">
+					<Value>4</Value>
+				</Property>
+				<Property Name="Width">
+					<Value>8</Value>
+				</Property>
+				<Property Name="Inverted">
+					<Value>0</Value>
+				</Property>
+				<Property Name="FlashInverted">
+					<Value>0</Value>
+				</Property>
+				<Property Name="FlashHidden">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Proportional">
+					<Value>1</Value>
+				</Property>
+				<Property Name="ISOFontType">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ResourceID">
+					<Value/>
+				</Property>
+				<Property Name="Comment">
+					<Value>
+						<![CDATA[AAA=]]>
+					</Value>
+				</Property>
+			</PropertySheet>
+		</Object>
 		<Object Class="CWorkingSet" Name="" ObjectName="WorkingSet_0" Pinned="FALSE" JVS-ID="0" JVS-RefCount="1">
 			<PropertySheet Name="Model">
 				<Property Name="MaskType">
@@ -290,6 +347,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194317"/>
@@ -325,11 +385,50 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194320"/>
 				<Object JVS-ID="4194321"/>
 				<Object JVS-ID="4194322"/>
+			</Objects>
+		</Object>
+		<Object Class="CGroup" Name="Group" ObjectName="Container_tagesz_err" Pinned="FALSE" JVS-ID="3002">
+			<PropertySheet Name="Group">
+				<Property Name="Hidden">
+					<Value>1</Value>
+				</Property>
+				<Property Name="ClipsChildren">
+					<Value>1</Value>
+				</Property>
+				<Property Name="Width">
+					<Value>113</Value>
+				</Property>
+				<Property Name="Height">
+					<Value>49</Value>
+				</Property>
+				<Property Name="Visible">
+					<Value>1</Value>
+				</Property>
+				<Property Name="Locked">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Comment">
+					<Value>
+						<![CDATA[AAA=]]>
+					</Value>
+				</Property>
+				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
+			</PropertySheet>
+			<Objects>
+				<Object JVS-ID="4194307"/>
 			</Objects>
 		</Object>
 		<Object Class="CSoftKeyMask" Name="" ObjectName="SoftKeyMask_Home" Pinned="FALSE" JVS-ID="4000" JVS-RefCount="1">
@@ -375,6 +474,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194308"/>
@@ -406,6 +508,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -441,6 +546,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194306"/>
@@ -472,6 +580,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -521,10 +632,10 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="Width">
-					<Value>156</Value>
+					<Value>123</Value>
 				</Property>
 				<Property Name="Height">
-					<Value>69</Value>
+					<Value>34</Value>
 				</Property>
 				<Property Name="Visible">
 					<Value>1</Value>
@@ -538,6 +649,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -606,6 +720,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194315"/>
@@ -672,6 +789,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194316"/>
@@ -736,6 +856,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -858,6 +981,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -983,6 +1109,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -1082,6 +1211,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1184,6 +1316,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23002"/>
@@ -1282,6 +1417,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1384,6 +1522,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -1482,6 +1623,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1584,12 +1728,15 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23002"/>
 			</Objects>
 		</Object>
-		<Object Class="COutputText" Name="Text" ObjectName="OutputString_11006" Pinned="FALSE" JVS-ID="11006">
+		<Object Class="COutputText" Name="Text" ObjectName="OutputString_minus" Pinned="FALSE" JVS-ID="11006">
 			<PropertySheet Name="Text">
 				<Property Name="Text">
 					<Value>
@@ -1659,16 +1806,16 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="BkColor">
-					<Value>16777215</Value>
+					<Value>3368601</Value>
 				</Property>
 				<Property Name="RoundEdgeRadius">
 					<Value>0</Value>
 				</Property>
 				<Property Name="Width">
-					<Value>143</Value>
+					<Value>126</Value>
 				</Property>
 				<Property Name="Height">
-					<Value>102</Value>
+					<Value>26</Value>
 				</Property>
 				<Property Name="Visible">
 					<Value>1</Value>
@@ -1682,6 +1829,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1784,6 +1934,215 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
+			</PropertySheet>
+			<Objects>
+				<Object JVS-ID="23001"/>
+			</Objects>
+		</Object>
+		<Object Class="COutputText" Name="Text" ObjectName="OutputString_T_erreicht" Pinned="FALSE" JVS-ID="11008">
+			<PropertySheet Name="Text">
+				<Property Name="Text">
+					<Value>
+						<![CDATA[VABhAGcAZQBzAHoAaQBlAGwAIABlAHIAcgBlAGkAYwBoAHQAIQAhACEAAAA=]]>
+					</Value>
+				</Property>
+				<Property Name="ResourceID">
+					<Value/>
+				</Property>
+				<Property Name="MultiLine">
+					<Value>0</Value>
+				</Property>
+				<Property Name="WordBreak">
+					<Value>1</Value>
+				</Property>
+				<Property Name="WrapOnHyphen">
+					<Value>0</Value>
+				</Property>
+				<Property Name="AlignH">
+					<Value>1</Value>
+				</Property>
+				<Property Name="AlignV">
+					<Value>4</Value>
+				</Property>
+				<Property Name="Appearance">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ControlType">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Numeric">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Offset">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Scale">
+					<Value>1</Value>
+				</Property>
+				<Property Name="FormatType">
+					<Value>0</Value>
+				</Property>
+				<Property Name="FormatString">
+					<Value>0</Value>
+				</Property>
+				<Property Name="NoOfDecimals">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Value">
+					<Value>
+						<![CDATA[VABhAGcAZQBzAHoAaQBlAGwAIABlAHIAcgBlAGkAYwBoAHQAIQAhACEAAAA=]]>
+					</Value>
+				</Property>
+				<Property Name="StringLength">
+					<Value>4</Value>
+				</Property>
+				<Property Name="Transparent">
+					<Value>0</Value>
+				</Property>
+				<Property Name="LeadingZeros">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ZeroAsBlank">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Truncate">
+					<Value>0</Value>
+				</Property>
+				<Property Name="BkColor">
+					<Value>13369548</Value>
+				</Property>
+				<Property Name="RoundEdgeRadius">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Width">
+					<Value>112</Value>
+				</Property>
+				<Property Name="Height">
+					<Value>48</Value>
+				</Property>
+				<Property Name="Visible">
+					<Value>1</Value>
+				</Property>
+				<Property Name="Locked">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Comment">
+					<Value>
+						<![CDATA[AAA=]]>
+					</Value>
+				</Property>
+				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
+			</PropertySheet>
+			<Objects>
+				<Object JVS-ID="23003"/>
+			</Objects>
+		</Object>
+		<Object Class="COutputText" Name="Text" ObjectName="OutputString_G_erreicht" Pinned="FALSE" JVS-ID="11009">
+			<PropertySheet Name="Text">
+				<Property Name="Text">
+					<Value>
+						<![CDATA[RwBlAHMAYQBtAHQAegBpAGUAbAAgAGUAcgByAGUAaQBjAGgAdAAhACEAIQAAAA==]]>
+					</Value>
+				</Property>
+				<Property Name="ResourceID">
+					<Value/>
+				</Property>
+				<Property Name="MultiLine">
+					<Value>0</Value>
+				</Property>
+				<Property Name="WordBreak">
+					<Value>0</Value>
+				</Property>
+				<Property Name="WrapOnHyphen">
+					<Value>0</Value>
+				</Property>
+				<Property Name="AlignH">
+					<Value>1</Value>
+				</Property>
+				<Property Name="AlignV">
+					<Value>4</Value>
+				</Property>
+				<Property Name="Appearance">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ControlType">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Numeric">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Offset">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Scale">
+					<Value>1</Value>
+				</Property>
+				<Property Name="FormatType">
+					<Value>0</Value>
+				</Property>
+				<Property Name="FormatString">
+					<Value>0</Value>
+				</Property>
+				<Property Name="NoOfDecimals">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Value">
+					<Value>
+						<![CDATA[RwBlAHMAYQBtAHQAegBpAGUAbAAgAGUAcgByAGUAaQBjAGgAdAAhACEAIQAAAA==]]>
+					</Value>
+				</Property>
+				<Property Name="StringLength">
+					<Value>4</Value>
+				</Property>
+				<Property Name="Transparent">
+					<Value>0</Value>
+				</Property>
+				<Property Name="LeadingZeros">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ZeroAsBlank">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Truncate">
+					<Value>0</Value>
+				</Property>
+				<Property Name="BkColor">
+					<Value>16776960</Value>
+				</Property>
+				<Property Name="RoundEdgeRadius">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Width">
+					<Value>234</Value>
+				</Property>
+				<Property Name="Height">
+					<Value>69</Value>
+				</Property>
+				<Property Name="Visible">
+					<Value>1</Value>
+				</Property>
+				<Property Name="Locked">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Comment">
+					<Value>
+						<![CDATA[AAA=]]>
+					</Value>
+				</Property>
+				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -1882,6 +2241,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1985,6 +2347,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -2062,6 +2427,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2142,6 +2510,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="21000"/>
@@ -2179,6 +2550,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2257,7 +2631,7 @@
 					<Value>210</Value>
 				</Property>
 				<Property Name="PosValVariableObjectID">
-					<Value>21003</Value>
+					<Value>21001</Value>
 				</Property>
 				<Property Name="TargetValVariableObjectID">
 					<Value>21003</Value>
@@ -2273,6 +2647,7 @@
 				</Property>
 			</PropertySheet>
 			<Objects>
+				<Object JVS-ID="21001"/>
 				<Object JVS-ID="21003"/>
 			</Objects>
 		</Object>
@@ -2308,6 +2683,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2422,6 +2800,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 		</Object>
 		<Object Class="CPointer" Name="Pointer" ObjectName="ObjectPointer_Null3" Pinned="FALSE" JVS-ID="27001">
@@ -2438,6 +2819,30 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
+			</PropertySheet>
+		</Object>
+		<Object Class="CPointer" Name="Pointer" ObjectName="ObjectPointer_G_Ziel" Pinned="FALSE" JVS-ID="27002">
+			<PropertySheet Name="Pointer">
+				<Property Name="Visible">
+					<Value>1</Value>
+				</Property>
+				<Property Name="Locked">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Comment">
+					<Value>
+						<![CDATA[AAA=]]>
+					</Value>
+				</Property>
+				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2491,10 +2896,46 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194304"/>
 			</Objects>
+		</Object>
+		<Object Class="CExternalObjectDefinition" Name="" ObjectName="ExternalObjectDefinition_38000" Pinned="FALSE" JVS-ID="38000">
+			<PropertySheet Name="ExternalObjectDefinition">
+				<Property Name="Enable">
+					<Value>1</Value>
+				</Property>
+				<Property Name="ExternalWSName">
+					<Value>
+						<![CDATA[]]>
+					</Value>
+				</Property>
+				<Property Name="ObjectIDList">
+					<Value/>
+				</Property>
+				<Property Name="Width">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Height">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Visible">
+					<Value>1</Value>
+				</Property>
+				<Property Name="Locked">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
+			</PropertySheet>
 		</Object>
 		<Object Class="CProxy" Name="Text" ObjectName="" Pinned="FALSE" JVS-ID="4194304">
 			<PropertySheet Name="Proxy">
@@ -2562,6 +3003,25 @@
 				<Object JVS-ID="11005"/>
 			</Objects>
 		</Object>
+		<Object Class="CProxy" Name="Text" ObjectName="" Pinned="FALSE" JVS-ID="4194307">
+			<PropertySheet Name="Proxy">
+				<Property Name="Top">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Left">
+					<Value>0</Value>
+				</Property>
+				<Property Name="Name">
+					<Value>Text</Value>
+				</Property>
+				<Property Name="Transform">
+					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(0.0000000000000000)</Value>
+				</Property>
+			</PropertySheet>
+			<Objects>
+				<Object JVS-ID="11008"/>
+			</Objects>
+		</Object>
 		<Object Class="CProxy" Name="Text" ObjectName="" Pinned="FALSE" JVS-ID="4194308">
 			<PropertySheet Name="Proxy">
 				<Property Name="Top">
@@ -2609,10 +3069,10 @@
 		<Object Class="CProxy" Name="Text" ObjectName="" Pinned="FALSE" JVS-ID="4194313">
 			<PropertySheet Name="Proxy">
 				<Property Name="Top">
-					<Value>14</Value>
+					<Value>6</Value>
 				</Property>
 				<Property Name="Left">
-					<Value>3</Value>
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
@@ -2621,7 +3081,7 @@
 					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
-					<Value>(1.0000000000000000)(0.0000000000000000)(3.0000000000000000)(0.0000000000000000)(1.0000000000000000)(14.0000000000000000)</Value>
+					<Value>(1.0000000000000000)(0.0000000000000000)(-1.0000000000000000)(0.0000000000000000)(1.0000000000000000)(6.0000000000000000)</Value>
 				</Property>
 			</PropertySheet>
 			<Objects>

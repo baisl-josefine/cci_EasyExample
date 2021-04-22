@@ -25,7 +25,7 @@
 		</Object>
 		<Object Class="COutputText">
 			<Objects>
-				<Object Class="CFontStyle" JVS-ID="23001" ObjectName="FontAttributes_Default"/>
+				<Object Class="CFontStyle" JVS-ID="23003" ObjectName="FontAttributes_lila"/>
 			</Objects>
 		</Object>
 	</Objects>

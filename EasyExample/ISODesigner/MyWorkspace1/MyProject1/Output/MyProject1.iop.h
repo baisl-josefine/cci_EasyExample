@@ -10,6 +10,7 @@
 #define DataMask_Home                      1000
 #define Container_Gesamtzaehler            3000
 #define Container_Tageszaehler             3001
+#define Container_tagesz_err               3002
 #define SoftKeyMask_Home                   4000
 #define SoftKey_PlusPlus                   5000
 #define SoftKey_Reset_Gesamtzaehler        5001
@@ -27,8 +28,10 @@
 #define OutputString_Gesamtzaehler        11003
 #define OutputString_Tageszaehler         11004
 #define OutputString_Reset_Tageszaehler   11005
-#define OutputString_11006                11006
+#define OutputString_minus                11006
 #define OutputString_11007                11007
+#define OutputString_T_erreicht           11008
+#define OutputString_G_erreicht           11009
 #define OutputNumber_Tageszaehler         12000
 #define OutputNumber_Gesamtzaehler        12003
 #define Meter_Gesamtzaehler               17000
@@ -42,6 +45,9 @@
 #define FontAttributes_23000              23000
 #define FontAttributes_Default            23001
 #define FontAttributes_Button             23002
+#define FontAttributes_lila               23003
 #define ObjectPointer_Null2               27000
 #define ObjectPointer_Null3               27001
+#define ObjectPointer_G_Ziel              27002
 #define AuxFunction2_PlusPlus             29000
+#define ExternalObjectDefinition_38000    38000
